@@ -1,7 +1,8 @@
 List = new Mongo.Collection("list");
-
+var MAP_ZOOM = 15;
 if (Meteor.isClient) {
   // This code only runs on the client
+  
   Template.body.helpers({
     list: function(){
       return List.find({}, {sort: {createdAt: -1}});

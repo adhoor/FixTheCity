@@ -1,6 +1,6 @@
 /* CSS declarations go here */
 form{
-	padding-top: 100px;
+	padding-top: 60px;
 }
 .col-sm-8 {
   max-width: 600px;
@@ -19,7 +19,9 @@ label{
 	font-weight: normal;
 	text-transform: uppercase;
 }
-
+.photo{
+	border: 10px solid #eeeeee;
+}
 .task{
 	position: relative;
 	display: inline-block;
